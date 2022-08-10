@@ -1,0 +1,20 @@
+{
+  "name": "crossfit-node-api-rest",
+  "version": "1.0.0",
+  "description": "Crossfit Rest API following best practices in Node.js and Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lorenzo Vidal",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  }
+}
